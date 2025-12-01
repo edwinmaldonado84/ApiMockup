@@ -1,0 +1,1173 @@
+{
+  "theme": {
+    "data": {
+      "id": "theme-1",
+      "content": {
+        "theme_mode": "auto",
+        "colors": {
+          "text": "#000000",
+          "textDim": "#564E4A",
+          "background": "rgba(12, 11, 11, 1)",
+          "backgroundSecondary": "rgba(18,20,23,1)",
+          "backgroundNav": "#121416",
+          "errorBackground": "#F2D6CD",
+          "primary": "#FFB300",
+          "secondary": "#6F757D",
+          "accent": "#6F757D",
+          "overlay": "rgba(25, 16, 21, 0.5)",
+          "separator": "rgba(58, 63, 73, 1)",
+          "error": "#C03403",
+          "spinner": "#de172b",
+          "success": "rgba(0,200,83,1)",
+          "tintInactive": "#6F757D"
+        },
+        "tabMenu": {
+          "styles": {
+            "activeTabWrapper": {
+              "backgroundColor": "#FFB300",
+              "opacity": 0.08
+            },
+            "tabBarStyle": {},
+            "tabBarBackground": {
+              "backgroundColor": "#121416"
+            },
+            "activeTabColor": "#FFB300",
+            "inactiveTabColor": "#6F757D"
+          },
+          "items": [
+            {
+              "title": "Tickets",
+              "icon": "ticket",
+              "route": "ticket"
+            },
+            {
+              "title": "Artists",
+              "icon": "artists",
+              "route": "artists"
+            },
+            {
+              "title": "Home",
+              "icon": "index",
+              "route": "index"
+            },
+            {
+              "title": "Schedule",
+              "icon": "schedule",
+              "route": "schedule"
+            },
+            {
+              "title": "More",
+              "icon": "more",
+              "route": "more"
+            }
+          ]
+        },
+        "header": {
+          "height": 150,
+          "backgroundImage": "https://em-files.nyc3.cdn.digitaloceanspaces.com/ringsted-festival/background-home-header.png",
+          "backgroundLinearGradient": {
+            "colors": ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, .8)"]
+          },
+          "containerStyle": {}
+        }
+      },
+      "updated_at": "2025-11-13T12:42:00Z"
+    }
+  },
+  "brand": {
+    "data": {
+      "id": "theme-1",
+      "content": {
+        "logo_svg": "https://ringstedfestival.dk/wp-content/uploads/logo-payoff-1.svg",
+        "cta_color": "#FFB300",
+        "logo_mini": null,
+        "brand_name": "Ringsted Festival",
+        "logo_large": null,
+        "logo_small": null,
+        "primary_color": null,
+        "secondary_color": null,
+        "background_pattern_image": "https://livecloud-appcms.fra1.digitaloceanspaces.com/Summits/019acc18-9f00-715b-88e8-10cdb2474926/images/6d96023a-a236-4c8e-bfee-4dc8f430af20.png"
+      },
+      "updated_at": "2025-11-13T12:42:00Z"
+    }
+  },
+  "home": {
+    "data": {
+      "structure": [
+        {
+          "id": "component-1",
+          "type": "Header",
+          "properties": {
+            "rightIcon": "search",
+            "rightIconColor": "white",
+            "leftIcon": "notifications",
+            "leftIconColor": "white",
+            "SearchBarProps": {},
+            "backgroundLinearGradient": {},
+            "logo": {
+              "showLogo": true,
+              "position": "center"
+            },
+            "customStyles": {
+              "containerStyle": {},
+              "titleContainerStyle": {},
+              "titleStyle": {}
+            }
+          }
+        },
+        {
+          "id": "component-2",
+          "type": "Video",
+          "properties": {
+            "src": "https://em-files.nyc3.cdn.digitaloceanspaces.com/ringsted-festival/hero-video-optimized.mp4",
+            "autoPlay": false,
+            "customStyles": {
+              "containerStyle": {
+                "marginTop": -25,
+                "zIndex": 3
+              },
+              "videoStyle": {}
+            }
+          }
+        },
+        {
+          "id": "component-3",
+          "type": "Counter",
+          "properties": {
+            "title": {
+              "customStyles": {
+                "color": "#fff"
+              },
+              "fontSize": "xxl",
+              "fontStyle": "heading",
+              "value": "THE PARTY STARTS AT"
+            },
+            "backgroundImage": null,
+            "customStyles": {
+              "containerStyle": {},
+              "cardStyle": {},
+              "timeStyle": {
+                "fontSize": "xl",
+                "fontStyle": "heading",
+                "customStyles": {
+                  "color": "#FFB300"
+                }
+              },
+              "labelStyle": {
+                "fontSize": "sm",
+                "fontStyle": "default",
+                "customStyles": {
+                  "color": "#fff"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "component-4",
+          "type": "Banner",
+          "properties": {
+            "title": {
+              "customStyles": {
+                "color": "#fff"
+              },
+              "fontSize": "xxl",
+              "fontStyle": "heading",
+              "value": "LATEST NEWS"
+            },
+            "backgroundLinearGradient": {
+              "colors": ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, .9)"]
+            },
+            "backgroundImage": "https://em-files.nyc3.cdn.digitaloceanspaces.com/ringsted-festival/newsBanner.jpg",
+            "customStyles": {
+              "containerStyle": {}
+            }
+          }
+        },
+        {
+          "id": "component-5",
+          "type": "Banner",
+          "properties": {
+            "title": {
+              "customStyles": {
+                "color": "#fff"
+              },
+              "fontSize": "xxl",
+              "fontStyle": "heading",
+              "value": "INFO"
+            },
+            "backgroundLinearGradient": {
+              "colors": ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, .9)"]
+            },
+            "backgroundImage": "https://em-files.nyc3.cdn.digitaloceanspaces.com/ringsted-festival/infoBanner.jpg",
+            "customStyles": {
+              "containerStyle": {}
+            }
+          }
+        },
+        {
+          "id": "component-6",
+          "type": "SocialFeed",
+          "properties": {
+            "showIcon": true,
+            "image": "",
+            "title": {
+              "value": "SOCIAL FEED ON INSTAGRAM",
+              "fontStyle": "heading",
+              "fontSize": "xxl",
+              "customStyles": {
+                "color": "#FFF"
+              }
+            },
+            "action": {
+              "value": "SEE ALL",
+              "fontStyle": "heading",
+              "fontSize": "md",
+              "customStyles": {
+                "textActionStyle": {},
+                "buttonActionStyle": {}
+              }
+            },
+            "description": {
+              "fontStyle": "default",
+              "fontSize": "xs",
+              "numLines": 2,
+              "customStyles": {
+                "color": "#FFF"
+              }
+            },
+            "customStyles": {
+              "containerStyle": {}
+            }
+          }
+        }
+      ]
+    },
+    "updated_at": "2025-11-14T01:46:00Z"
+  },
+  "artist": {
+    "ArtistList": {
+      "props": {
+        "artists": [
+          {
+            "id": "1",
+            "name": "Andreas Odbjerg",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/Andreas-Odbjerg-pressefoto-25_3-2-%E2%80%93-stor-e1763463525342-768x488.jpeg",
+            "concertDateStart": "2026-07-10T20:00:00Z",
+            "concertDateEnd": "2026-07-10T21:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "“Andreas Odbjerg” is a live concert tour in Denmark celebrating the legendary Danish pop band Tøsedrengene, which was active from 1978 to 1985.",
+              "The tour marks 40 years since the group disbanded, bringing back their music to both long-time fans and new audiences."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/andreasodbjerg",
+              "instagram": "https://www.instagram.com/andreasodbjerg",
+              "spotify": "https://spotify.com/andreasodbjerg"
+            },
+            "spotifyTrackId": "3n3Ppam7vgaVa1iaRUc9Lp"
+          },
+          {
+            "id": "2",
+            "name": "Lukas Graham",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/Lukas-Graham-1-Frederik-Barasinski-scaled-e1763031825336-768x584.jpeg",
+            "concertDateStart": "2026-07-11T21:00:00Z",
+            "concertDateEnd": "2026-07-11T22:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Lukas Graham is a Danish pop and soul band known for their heartfelt lyrics and catchy melodies.",
+              "The band, led by vocalist Lukas Forchhammer, has gained international fame with hits like '7 Years' and 'Love Someone'.",
+              "Their music often explores themes of personal growth, family, and life's challenges."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/lukasgraham",
+              "instagram": "https://www.instagram.com/lukasgraham",
+              "spotify": "https://spotify.com/lukasgraham"
+            },
+            "spotifyTrackId": "60a0Rd6pjrkxjPbaKzXjfq"
+          },
+          {
+            "id": "3",
+            "name": "Malte Ebert",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/MALTE_EBERT_PRESSE-6-af-Mikkel-Sivelokke-768x512.jpg",
+            "concertDateStart": "2026-07-12T19:00:00Z",
+            "concertDateEnd": "2026-07-12T20:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Malte Ebert is a Danish singer-songwriter known for his introspective lyrics and folk-inspired melodies.",
+              "His music captures the essence of everyday life with honest storytelling and acoustic arrangements.",
+              "Malte has quickly become one of Denmark's most promising artists in the contemporary folk scene."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/malteebert",
+              "instagram": "https://www.instagram.com/malteebert",
+              "spotify": "https://spotify.com/malteebert"
+            },
+            "spotifyTrackId": "5sICkBXVmaCQk5aISGR3x1"
+          },
+          {
+            "id": "4",
+            "name": "Medina",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/Medina-2026-%E2%80%93-stor-768x540.jpeg",
+            "concertDateStart": "2026-07-12T22:00:00Z",
+            "concertDateEnd": "2026-07-12T23:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Medina is a Danish pop and R&B artist who rose to international fame with her hit single 'You and I'.",
+              "Known for her powerful vocals and electronic pop sound, she has become one of Denmark's most successful music exports.",
+              "Her performances are characterized by high energy and emotional depth, captivating audiences worldwide."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/medinaofficial",
+              "instagram": "https://www.instagram.com/medinaofficial",
+              "spotify": "https://spotify.com/medinaofficial"
+            },
+            "spotifyTrackId": "2xLOMhRX0ycSLB4JqB0yK6"
+          },
+          {
+            "id": "5",
+            "name": "Gnags",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/GNAGS-2022-fotokredit-Per-Lange-%E2%80%93-stor-768x512.jpeg",
+            "concertDateStart": "2026-07-13T20:30:00Z",
+            "concertDateEnd": "2026-07-13T22:00:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Gnags is a legendary Danish rock band that has been entertaining audiences since 1966.",
+              "With their unique blend of rock, pop, and folk, they've created some of Denmark's most beloved songs.",
+              "Known for hits like 'Så Lykkelig' and 'Maria', Gnags continues to be a cornerstone of Danish music culture."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/gnags",
+              "instagram": "https://www.instagram.com/gnags",
+              "spotify": "https://spotify.com/gnags"
+            },
+            "spotifyTrackId": "4cluDES4hQEUhmXj6TXkSo"
+          },
+          {
+            "id": "6",
+            "name": "Gilli",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/GILLI-Pressefoto-2026-768x1024.jpeg",
+            "concertDateStart": "2026-07-13T23:00:00Z",
+            "concertDateEnd": "2026-07-14T00:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Gilli is one of Denmark's most prominent hip-hop and rap artists, known for his energetic performances.",
+              "His music blends Danish and international hip-hop influences with catchy hooks and powerful beats.",
+              "With multiple chart-topping albums and singles, Gilli has established himself as a leading voice in Danish urban music."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/gillimusik",
+              "instagram": "https://www.instagram.com/gillimusik",
+              "spotify": "https://spotify.com/gillimusik"
+            },
+            "spotifyTrackId": "0DiWol3AO6WpXZgp0goxAV"
+          }
+        ]
+      }
+    },
+    "updated_at": "2025-11-14T01:44:00Z"
+  },
+  "instagram": [
+    {
+      "id": "fake1",
+      "caption": "Andreas Odbjerg åbner Anlægsscenen lørdag! ❤️🌳",
+      "media_type": "IMAGE",
+      "media_url": "https://picsum.photos/600/600?2",
+      "permalink": "https://www.instagram.com/p/DRPBgCIDrBw/"
+    },
+    {
+      "id": "fake2",
+      "caption": "Publicación 2 de prueba",
+      "media_type": "IMAGE",
+      "media_url": "https://picsum.photos/600/600?2",
+      "permalink": "https://instagram.com/fake2"
+    }
+  ],
+  "notifications": {
+    "updated_at": "2025-11-14T01:45:00Z",
+    "messages": [
+      {
+        "4 AUG": [
+          {
+            "id": "31",
+            "message": "Rise and shine, festival heroes! Breakfast beats start at 09:00 in the Camp Lounge.",
+            "timestamp": "2025-08-04T07:30:00.000Z",
+            "title": "GOOD MORNING ☀️"
+          },
+          {
+            "id": "32",
+            "message": "Left your water bottle somewhere? A big box of lost-and-found items is now at Info West.",
+            "timestamp": "2025-08-04T06:00:00.000Z",
+            "title": "LOST & FOUND 📦"
+          },
+          {
+            "id": "33",
+            "message": "Protect those festival feet! Free sunscreen & blister plasters at the Safety Tent.",
+            "timestamp": "2025-08-04T04:10:00.000Z",
+            "title": "STAY SAFE 🧴"
+          }
+        ],
+        "3 AUG": [
+          {
+            "id": "3",
+            "message": "Get home safely in the rain, dear camping guests. Please follow the staff’s instructions.",
+            "timestamp": "2025-08-03T15:41:00.000Z",
+            "title": "GET HOME SAFELY"
+          },
+          {
+            "id": "4",
+            "message": "Thank you, thank you, thank you for making Ringsted Festival 2025 unforgettable – see you in 2026!",
+            "timestamp": "2025-08-03T07:00:00.000Z",
+            "title": "THANK YOU FOR THIS YEAR 🎉"
+          },
+          {
+            "id": "5",
+            "message": "There is love-themed karaoke at the Love tent tonight.",
+            "timestamp": "2025-08-02T23:00:00.000Z",
+            "title": "ALL YOU NEED IS LOVE ❤️"
+          },
+          {
+            "id": "6",
+            "message": "Tonight's surprise guest has just arrived backstage 👀 Stay tuned!",
+            "timestamp": "2025-08-03T20:15:00.000Z",
+            "title": "SURPRISE ACT ⭐"
+          },
+          {
+            "id": "7",
+            "message": "Cold drinks incoming! Extra pop-up bars are opening near the Main Stage.",
+            "timestamp": "2025-08-03T18:20:00.000Z",
+            "title": "REFRESHMENTS 🍻"
+          },
+          {
+            "id": "8",
+            "message": "The Silent Disco headphones are running low – grab a pair early!",
+            "timestamp": "2025-08-03T16:10:00.000Z",
+            "title": "SILENT DISCO 🎧"
+          },
+          {
+            "id": "9",
+            "message": "Charging stations are full right now. Next free slots expected in 20 minutes.",
+            "timestamp": "2025-08-03T14:35:00.000Z",
+            "title": "CHARGE UP 🔋"
+          },
+          {
+            "id": "10",
+            "message": "Water refill points just restocked! Stay hydrated and enjoy the sun.",
+            "timestamp": "2025-08-03T13:15:00.000Z",
+            "title": "DRINK WATER 💧"
+          },
+          {
+            "id": "11",
+            "message": "A rainbow just appeared over the West Stage. Magical moment!",
+            "timestamp": "2025-08-03T11:11:00.000Z",
+            "title": "MAGIC MOMENT 🌈"
+          }
+        ],
+        "2 AUG": [
+          {
+            "id": "1",
+            "message": "Look up at the sky at 00:15.",
+            "timestamp": "2025-08-02T05:10:00.000Z",
+            "title": "FIREWORKS 💥"
+          },
+          {
+            "id": "2",
+            "message": "Dear festival guest! When the clock strikes 00:15, there will be anniversary fireworks.",
+            "timestamp": "2025-08-02T00:42:00.000Z",
+            "title": "FIREWORKS 💥"
+          },
+          {
+            "id": "12",
+            "message": "The Vegan Street Food stall has a 2-for-1 deal until 17:00.",
+            "timestamp": "2025-08-02T14:50:00.000Z",
+            "title": "FOOD DEAL 🌱"
+          },
+          {
+            "id": "13",
+            "message": "The sun is strong right now – hats and sunscreen recommended at all stages.",
+            "timestamp": "2025-08-02T13:05:00.000Z",
+            "title": "SUN ALERT ☀️"
+          },
+          {
+            "id": "14",
+            "message": "Main Stage soundcheck for tonight’s headliner starts in 10 minutes.",
+            "timestamp": "2025-08-02T11:20:00.000Z",
+            "title": "SOUNDCHECK 🎤"
+          },
+          {
+            "id": "15",
+            "message": "Meet & greet wristbands for the 18:00 session are now available at Info East.",
+            "timestamp": "2025-08-02T10:45:00.000Z",
+            "title": "MEET & GREET 🤝"
+          },
+          {
+            "id": "16",
+            "message": "The Ferris wheel is temporarily closed due to wind – safety first!",
+            "timestamp": "2025-08-02T09:20:00.000Z",
+            "title": "WEATHER UPDATE 🌬️"
+          },
+          {
+            "id": "17",
+            "message": "Free glitter makeup at the Glam Booth until supplies run out.",
+            "timestamp": "2025-08-02T08:00:00.000Z",
+            "title": "GLAM TIME ✨"
+          },
+          {
+            "id": "18",
+            "message": "Warm-up DJ set at Camp Central starts in 5 minutes!",
+            "timestamp": "2025-08-02T07:55:00.000Z",
+            "title": "MORNING BEATS 🎶"
+          }
+        ]
+      }
+    ]
+  },
+  "search": {
+    "updated_at": "2025-11-14T01:50:00Z",
+    "query": "",
+    "sections": [
+      {
+        "key": "artists",
+        "label": "ARTISTS",
+        "items": [
+          {
+            "id": "artist-status-quo",
+            "name": "STATUS QUO",
+            "image_url": "https://picsum.photos/seed/status-quo/200/200"
+          },
+          {
+            "id": "artist-andreas-odbjerg",
+            "name": "ANDREAS ODBJERG",
+            "image_url": "https://picsum.photos/seed/andreas-odbjerg/200/200"
+          },
+          {
+            "id": "artist-the-script",
+            "name": "THE SCRIPT",
+            "image_url": "https://picsum.photos/seed/the-script/200/200"
+          },
+          {
+            "id": "artist-lukas-graham",
+            "name": "LUKAS GRAHAM",
+            "image_url": "https://picsum.photos/seed/lukas-graham/200/200"
+          },
+          {
+            "id": "artist-malte-ebert",
+            "name": "MALTE EBERT",
+            "image_url": "https://picsum.photos/seed/malte-ebert/200/200"
+          }
+        ]
+      },
+      {
+        "key": "stages",
+        "label": "STAGES",
+        "items": [
+          {
+            "id": "stage-reaktoren",
+            "name": "REAKTOREN",
+            "image_url": "https://picsum.photos/seed/reaktoren/200/200"
+          },
+          {
+            "id": "stage-nordscenen",
+            "name": "NORDSCENEN",
+            "image_url": "https://picsum.photos/seed/nordscenen/200/200"
+          },
+          {
+            "id": "stage-anlaegsscenen",
+            "name": "ANLÆGSSCENEN",
+            "image_url": "https://picsum.photos/seed/anlaegsscenen/200/200"
+          }
+        ]
+      },
+      {
+        "key": "places",
+        "label": "PLACES",
+        "items": [
+          {
+            "id": "place-info-east",
+            "name": "INFO EAST",
+            "image_url": "https://picsum.photos/seed/info-east/200/200"
+          },
+          {
+            "id": "place-info-west",
+            "name": "INFO WEST",
+            "image_url": "https://picsum.photos/seed/info-west/200/200"
+          },
+          {
+            "id": "place-safety-tent",
+            "name": "SAFETY TENT",
+            "image_url": "https://picsum.photos/seed/safety-tent/200/200"
+          },
+          {
+            "id": "place-camp-central",
+            "name": "CAMP CENTRAL",
+            "image_url": "https://picsum.photos/seed/camp-central/200/200"
+          },
+          {
+            "id": "place-love-tent",
+            "name": "LOVE TENT",
+            "image_url": "https://picsum.photos/seed/love-tent/200/200"
+          }
+        ]
+      },
+      {
+        "key": "information",
+        "label": "INFORMATION",
+        "items": [
+          {
+            "id": "info-lost-and-found",
+            "name": "LOST & FOUND",
+            "image_url": "https://picsum.photos/seed/lost-found/200/200"
+          },
+          {
+            "id": "info-water-refill",
+            "name": "WATER REFILL POINTS",
+            "image_url": "https://picsum.photos/seed/water-refill/200/200"
+          },
+          {
+            "id": "info-charging-stations",
+            "name": "CHARGING STATIONS",
+            "image_url": "https://picsum.photos/seed/charging-stations/200/200"
+          },
+          {
+            "id": "info-meet-greet",
+            "name": "MEET & GREET",
+            "image_url": "https://picsum.photos/seed/meet-greet/200/200"
+          }
+        ]
+      },
+      {
+        "key": "food",
+        "label": "FOOD",
+        "items": [
+          {
+            "id": "food-vegan-street",
+            "name": "VEGAN STREET FOOD",
+            "image_url": "https://picsum.photos/seed/vegan-street-food/200/200"
+          },
+          {
+            "id": "food-burger-barn",
+            "name": "BURGER BARN",
+            "image_url": "https://picsum.photos/seed/burger-barn/200/200"
+          },
+          {
+            "id": "food-pizza-corner",
+            "name": "PIZZA CORNER",
+            "image_url": "https://picsum.photos/seed/pizza-corner/200/200"
+          },
+          {
+            "id": "food-coffee-roasters",
+            "name": "COFFEE ROASTERS",
+            "image_url": "https://picsum.photos/seed/coffee-roasters/200/200"
+          }
+        ]
+      },
+      {
+        "key": "drinks",
+        "label": "DRINKS",
+        "items": [
+          {
+            "id": "drink-beer-garden",
+            "name": "BEER GARDEN",
+            "image_url": "https://picsum.photos/seed/beer-garden/200/200"
+          },
+          {
+            "id": "drink-cocktail-bar",
+            "name": "COCKTAIL BAR",
+            "image_url": "https://picsum.photos/seed/cocktail-bar/200/200"
+          },
+          {
+            "id": "drink-wine-bar",
+            "name": "WINE BAR",
+            "image_url": "https://picsum.photos/seed/wine-bar/200/200"
+          },
+          {
+            "id": "drink-juice-stand",
+            "name": "JUICE STAND",
+            "image_url": "https://picsum.photos/seed/juice-stand/200/200"
+          }
+        ]
+      }
+    ]
+  },
+  "schedule": {
+    "updated_at": "2025-11-22T12:01:00Z",
+    "stages": [
+      {
+        "id": "nordscenen",
+        "name": "NORDSCENEN",
+        "color": "#00BFFF",
+        "position": 0
+      },
+      {
+        "id": "reaktoren",
+        "name": "REAKTOREN",
+        "color": "#FF4444",
+        "position": 1
+      },
+      {
+        "id": "alpehytten",
+        "name": "ALPEHYTTEN",
+        "color": "#FF1493",
+        "position": 2
+      },
+      {
+        "id": "anlaegsscenen",
+        "name": "ANLÆGSSCENEN",
+        "color": "#FFA500",
+        "position": 3
+      },
+      {
+        "id": "forhaven",
+        "name": "FORHAVEN",
+        "color": "#32CD32",
+        "position": 4
+      }
+    ],
+    "events": [
+      {
+        "id": "event-1",
+        "title": "STATUS QUO",
+        "artist": "Status Quo",
+        "stage_id": "nordscenen",
+        "start_time": "2025-07-31T12:00:00Z",
+        "end_time": "2025-07-31T13:00:00Z",
+        "image_url": "https://picsum.photos/seed/status-quo/200/200",
+        "is_favorite": false
+      },
+      {
+        "id": "event-2",
+        "title": "ANDREAS ODBJERG",
+        "artist": "Andreas Odbjerg",
+        "stage_id": "reaktoren",
+        "start_time": "2025-07-31T12:30:00Z",
+        "end_time": "2025-07-31T13:15:00Z",
+        "image_url": "https://picsum.photos/seed/andreas-odbjerg/200/200",
+        "is_favorite": true
+      },
+      {
+        "id": "event-3",
+        "title": "SCKALASET",
+        "artist": "Sckalaset",
+        "stage_id": "alpehytten",
+        "start_time": "2025-07-31T12:30:00Z",
+        "end_time": "2025-07-31T13:45:00Z",
+        "image_url": "https://picsum.photos/seed/sckalaset/200/200",
+        "is_favorite": false
+      },
+      {
+        "id": "event-4",
+        "title": "THE SCRIPT",
+        "artist": "The Script",
+        "stage_id": "nordscenen",
+        "start_time": "2025-07-31T14:00:00Z",
+        "end_time": "2025-07-31T15:30:00Z",
+        "image_url": "https://picsum.photos/seed/the-script/200/200",
+        "is_favorite": false
+      },
+      {
+        "id": "event-5",
+        "title": "LUKAS GRAHAM",
+        "artist": "Lukas Graham",
+        "stage_id": "anlaegsscenen",
+        "start_time": "2025-07-31T13:00:00Z",
+        "end_time": "2025-07-31T14:30:00Z",
+        "image_url": "https://picsum.photos/seed/lukas-graham/200/200",
+        "is_favorite": true
+      },
+      {
+        "id": "event-6",
+        "title": "MALTE EBERT",
+        "artist": "Malte Ebert",
+        "stage_id": "forhaven",
+        "start_time": "2025-07-31T15:00:00Z",
+        "end_time": "2025-07-31T16:00:00Z",
+        "image_url": "https://picsum.photos/seed/malte-ebert/200/200",
+        "is_favorite": false
+      },
+      {
+        "id": "event-7",
+        "title": "MØ",
+        "artist": "MØ",
+        "stage_id": "reaktoren",
+        "start_time": "2025-07-31T16:00:00Z",
+        "end_time": "2025-07-31T17:30:00Z",
+        "image_url": "https://picsum.photos/seed/mo/200/200",
+        "is_favorite": false
+      },
+      {
+        "id": "event-8",
+        "title": "VOLBEAT",
+        "artist": "Volbeat",
+        "stage_id": "nordscenen",
+        "start_time": "2025-07-31T18:00:00Z",
+        "end_time": "2025-07-31T19:30:00Z",
+        "image_url": "https://picsum.photos/seed/volbeat/200/200",
+        "is_favorite": true
+      },
+      {
+        "id": "event-9",
+        "title": "AURORA",
+        "artist": "Aurora",
+        "stage_id": "nordscenen",
+        "start_time": "2025-08-01T14:00:00Z",
+        "end_time": "2025-08-01T15:30:00Z",
+        "image_url": "https://picsum.photos/seed/aurora/200/200",
+        "is_favorite": false
+      },
+      {
+        "id": "event-10",
+        "title": "GABRIELLE",
+        "artist": "Gabrielle",
+        "stage_id": "reaktoren",
+        "start_time": "2025-08-01T16:00:00Z",
+        "end_time": "2025-08-01T17:30:00Z",
+        "image_url": "https://picsum.photos/seed/gabrielle/200/200",
+        "is_favorite": true
+      },
+      {
+        "id": "event-11",
+        "title": "ALAN WALKER",
+        "artist": "Alan Walker",
+        "stage_id": "alpehytten",
+        "start_time": "2025-08-02T18:00:00Z",
+        "end_time": "2025-08-02T19:30:00Z",
+        "image_url": "https://picsum.photos/seed/alan-walker/200/200",
+        "is_favorite": false
+      },
+      {
+        "id": "event-12",
+        "title": "KYGO",
+        "artist": "Kygo",
+        "stage_id": "nordscenen",
+        "start_time": "2025-08-02T20:00:00Z",
+        "end_time": "2025-08-02T22:00:00Z",
+        "image_url": "https://picsum.photos/seed/kygo/200/200",
+        "is_favorite": true
+      },
+      {
+        "id": "event-13",
+        "title": "DJ TESTO",
+        "artist": "DJ Testo",
+        "stage_id": "forhaven",
+        "start_time": "2025-08-03T15:00:00Z",
+        "end_time": "2025-08-03T16:00:00Z",
+        "image_url": "https://picsum.photos/seed/dj-testo/200/200",
+        "is_favorite": true
+      }
+    ]
+  },
+  "more": {
+    "data": {
+      "id": "1",
+      "updated_at": "2025-11-14T01:45:00Z",
+      "structure": [
+        {
+          "id": "1",
+          "type": "item",
+          "title": "INFORMATION",
+          "icon": "info",
+          "path": "information",
+          "link": "",
+          "script": "",
+          "items": [
+            {
+              "id": "2",
+              "title": "GENERAL INFO",
+              "path": "general-info",
+              "type": "item",
+              "link": "",
+              "script": "",
+              "items": [
+                {
+                  "id": "3",
+                  "title": "RULES",
+                  "path": "rules",
+                  "type": "page-render",
+                  "link": "https://ringstedfestival.dk/wp-json/wp/v2/pages?slug=regelsaet",
+                  "script": "<link rel=\"stylesheet\" href=\"https://ringstedfestival.dk/wp-content/themes/kadence/assets/css/global.min.css?ver=1.2.28\" media=\"all\">\n<link rel=\"stylesheet\" href=\"https://em-files.nyc3.cdn.digitaloceanspaces.com/ringsted-festival/style.css\" media=\"all\">"
+                },
+                {
+                  "id": "4",
+                  "title": "WRISTBANDS, TICKETS & ACCESS",
+                  "path": "wristbands-tickets-access",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/info/billetinfo/",
+                  "script": "const interval = setInterval(() => { let viewport = document.querySelector('meta[name=\"viewport\"]'); const masthead = document.getElementById('masthead'); if (masthead) masthead.remove(); const footer = document.querySelector('footer'); if (footer) footer.remove(); const heroSection = document.querySelector('.entry-hero.page-hero-section.entry-hero-layout-standard'); if (heroSection) heroSection.remove(); const links = document.querySelectorAll('a[href]'); links.forEach(link => link.remove()); if (viewport) viewport.setAttribute('content','width=device-width, initial-scale=0.7, minimum-scale=0.7'); clearInterval(interval); }, 30);",
+                  "header": {
+                    "title": "TICKET INFO"
+                  }
+                },
+                {
+                  "id": "5",
+                  "title": "AVOID FAKE TICKETS",
+                  "path": "avoid-fake-tickets",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/vigtig-info-inden-billetsalget2026",
+                  "script": "const interval = setInterval(() => { let viewport = document.querySelector('meta[name=\"viewport\"]'); const masthead = document.getElementById('masthead'); if (masthead) masthead.remove(); const footer = document.querySelector('footer'); if (footer) footer.remove(); const heroSection = document.querySelector('.entry-hero.page-hero-section.entry-hero-layout-standard'); if (heroSection) heroSection.remove(); const links = document.querySelectorAll('a[href]'); links.forEach(link => link.remove()); if (viewport) viewport.setAttribute('content','width=device-width, initial-scale=0.7, minimum-scale=0.7'); clearInterval(interval); }, 30);"
+                },
+                {
+                  "id": "6",
+                  "title": "FAQ",
+                  "path": "faq",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/info/faq/",
+                  "script": "const interval = setInterval(() => { let viewport = document.querySelector('meta[name=\"viewport\"]'); const masthead = document.getElementById('masthead'); if (masthead) masthead.remove(); const footer = document.querySelector('footer'); if (footer) footer.remove(); const heroSection = document.querySelector('.entry-hero.page-hero-section.entry-hero-layout-standard'); if (heroSection) heroSection.remove(); const links = document.querySelectorAll('a[href]'); links.forEach(link => link.remove()); if (viewport) viewport.setAttribute('content','width=device-width, initial-scale=0.7, minimum-scale=0.7'); clearInterval(interval); }, 30);",
+                  "header": {
+                    "backgroundImage": "https://ringstedfestival.dk/wp-content/uploads/Claus-Sall-6116-scaled.jpg",
+                    "backgroundLinearGradient": {
+                      "colors": ["rgba(18, 24, 31, .3)", "rgba(18, 24, 31, 1)"]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "7",
+              "title": "CAMPING",
+              "path": "camping",
+              "link": "",
+              "script": "",
+              "items": [
+                {
+                  "id": "8",
+                  "title": "CAMPINGREGLEMENT",
+                  "path": "campingreglement",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/overnat/campingreglement",
+                  "script": "const interval = setInterval(() => { let viewport = document.querySelector('meta[name=\"viewport\"]'); const masthead = document.getElementById('masthead'); if (masthead) masthead.remove(); const footer = document.querySelector('footer'); if (footer) footer.remove(); const heroSection = document.querySelector('.entry-hero.page-hero-section.entry-hero-layout-standard'); if (heroSection) heroSection.remove(); const links = document.querySelectorAll('a[href]'); links.forEach(link => link.remove()); if (viewport) viewport.setAttribute('content','width=device-width, initial-scale=0.7, minimum-scale=0.7'); clearInterval(interval); }, 30);"
+                },
+                {
+                  "id": "9",
+                  "title": "GLAMCAMP NORD",
+                  "path": "glamcamp-nord",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/overnat/glamcamp-nord/",
+                  "script": "const interval = setInterval(() => { let viewport = document.querySelector('meta[name=\"viewport\"]'); const masthead = document.getElementById('masthead'); if (masthead) masthead.remove(); const footer = document.querySelector('footer'); if (footer) footer.remove(); const heroSection = document.querySelector('.entry-hero.page-hero-section.entry-hero-layout-standard'); if (heroSection) heroSection.remove(); const links = document.querySelectorAll('a[href]'); links.forEach(link => link.remove()); if (viewport) viewport.setAttribute('content','width=device-width, initial-scale=0.7, minimum-scale=0.7'); clearInterval(interval); }, 30);"
+                },
+                {
+                  "id": "10",
+                  "title": "KASERNEN",
+                  "path": "kasernen",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/overnat/kasernen/",
+                  "script": "const interval = setInterval(() => { let viewport = document.querySelector('meta[name=\"viewport\"]'); const masthead = document.getElementById('masthead'); if (masthead) masthead.remove(); const footer = document.querySelector('footer'); if (footer) footer.remove(); const heroSection = document.querySelector('.entry-hero.page-hero-section.entry-hero-layout-standard'); if (heroSection) heroSection.remove(); const links = document.querySelectorAll('a[href]'); links.forEach(link => link.remove()); if (viewport) viewport.setAttribute('content','width=device-width, initial-scale=0.7, minimum-scale=0.7'); clearInterval(interval); }, 30);"
+                },
+                {
+                  "id": "11",
+                  "title": "KOMPAGNIET",
+                  "path": "kompagniet",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/overnat/kompagniet/",
+                  "script": "const interval = setInterval(() => { let viewport = document.querySelector('meta[name=\"viewport\"]'); const masthead = document.getElementById('masthead'); if (masthead) masthead.remove(); const footer = document.querySelector('footer'); if (footer) footer.remove(); const heroSection = document.querySelector('.entry-hero.page-hero-section.entry-hero-layout-standard'); if (heroSection) heroSection.remove(); const links = document.querySelectorAll('a[href]'); links.forEach(link => link.remove()); if (viewport) viewport.setAttribute('content','width=device-width, initial-scale=0.7, minimum-scale=0.7'); clearInterval(interval); }, 30);"
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "title": "OPLEV",
+              "path": "oplev",
+              "link": "",
+              "script": "",
+              "items": [
+                {
+                  "id": "13",
+                  "title": "ALPEHYTTEN",
+                  "path": "alpehytten",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/info/alpehytten/",
+                  "script": "const interval = setInterval(() => {\r\n    let viewport = document.querySelector('meta[name=\"viewport\"]')\r\n    const masthead = document.getElementById(\"masthead\")\r\n    if (masthead) masthead.remove()\r\n\r\n    const footer = document.querySelector(\"footer\")\r\n    if (footer) footer.remove()\r\n    const heroSection = document.querySelector(\r\n      \".entry-hero.page-hero-section.entry-hero-layout-standard\",\r\n    )\r\n    if (heroSection) heroSection.remove()\r\n\r\n    const appSection = document.querySelector(\r\n      \".kb-row-layout-id2541_a48faa-06\",\r\n    )\r\n    if (appSection) appSection.remove()\r\n\r\n    \/\/ Stop interval when everything is gone\r\n    if (\r\n      !document.getElementById(\"masthead\") &&\r\n      !document.querySelector(\"footer\") &&\r\n      !document.querySelector(\".entry-hero.page-hero-section.entry-hero-layout-standard\")\r\n    ) {\r\n    }\r\n\r\n    const links = document.querySelectorAll(\"a[href]\")\r\n\r\n    links.forEach((link) => {\r\n      \/\/ Option 1: Remove the whole tag\r\n      link.remove()\r\n\r\n      \/\/ Option 2: If you want to KEEP the text but disable navigation:\r\n      \/\/ link.removeAttribute('href');\r\n      \/\/ link.style.pointerEvents = 'none';\r\n      \/\/ link.style.cursor = 'default';\r\n    })\r\n\r\n    if (viewport) {\r\n      viewport.setAttribute(\"content\", \"width=device-width, initial-scale=0.7, minimum-scale=0.7\")\r\n    }\r\n    clearInterval(interval)\r\n  }, 40)"
+                },
+                {
+                  "id": "14",
+                  "title": "FORHAVEN",
+                  "path": "forhaven",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/info/forhaven/",
+                  "script": "const interval = setInterval(() => {\r\n    let viewport = document.querySelector('meta[name=\"viewport\"]')\r\n    const masthead = document.getElementById(\"masthead\")\r\n    if (masthead) masthead.remove()\r\n\r\n    const footer = document.querySelector(\"footer\")\r\n    if (footer) footer.remove()\r\n    const heroSection = document.querySelector(\r\n      \".entry-hero.page-hero-section.entry-hero-layout-standard\",\r\n    )\r\n    if (heroSection) heroSection.remove()\r\n\r\n    const appSection = document.querySelector(\r\n      \".kb-row-layout-id2541_a48faa-06\",\r\n    )\r\n    if (appSection) appSection.remove()\r\n\r\n    \/\/ Stop interval when everything is gone\r\n    if (\r\n      !document.getElementById(\"masthead\") &&\r\n      !document.querySelector(\"footer\") &&\r\n      !document.querySelector(\".entry-hero.page-hero-section.entry-hero-layout-standard\")\r\n    ) {\r\n    }\r\n\r\n    const links = document.querySelectorAll(\"a[href]\")\r\n\r\n    links.forEach((link) => {\r\n      \/\/ Option 1: Remove the whole tag\r\n      link.remove()\r\n\r\n      \/\/ Option 2: If you want to KEEP the text but disable navigation:\r\n      \/\/ link.removeAttribute('href');\r\n      \/\/ link.style.pointerEvents = 'none';\r\n      \/\/ link.style.cursor = 'default';\r\n    })\r\n\r\n    if (viewport) {\r\n      viewport.setAttribute(\"content\", \"width=device-width, initial-scale=0.7, minimum-scale=0.7\")\r\n    }\r\n    clearInterval(interval)\r\n  }, 40)"
+                },
+                {
+                  "id": "15",
+                  "title": "HUMLESKOVEN",
+                  "path": "humleskoven",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/info/humleskoven/",
+                  "script": "const interval = setInterval(() => {\r\n    let viewport = document.querySelector('meta[name=\"viewport\"]')\r\n    const masthead = document.getElementById(\"masthead\")\r\n    if (masthead) masthead.remove()\r\n\r\n    const footer = document.querySelector(\"footer\")\r\n    if (footer) footer.remove()\r\n    const heroSection = document.querySelector(\r\n      \".entry-hero.page-hero-section.entry-hero-layout-standard\",\r\n    )\r\n    if (heroSection) heroSection.remove()\r\n\r\n    const appSection = document.querySelector(\r\n      \".kb-row-layout-id2541_a48faa-06\",\r\n    )\r\n    if (appSection) appSection.remove()\r\n\r\n    \/\/ Stop interval when everything is gone\r\n    if (\r\n      !document.getElementById(\"masthead\") &&\r\n      !document.querySelector(\"footer\") &&\r\n      !document.querySelector(\".entry-hero.page-hero-section.entry-hero-layout-standard\")\r\n    ) {\r\n    }\r\n\r\n    const links = document.querySelectorAll(\"a[href]\")\r\n\r\n    links.forEach((link) => {\r\n      \/\/ Option 1: Remove the whole tag\r\n      link.remove()\r\n\r\n      \/\/ Option 2: If you want to KEEP the text but disable navigation:\r\n      \/\/ link.removeAttribute('href');\r\n      \/\/ link.style.pointerEvents = 'none';\r\n      \/\/ link.style.cursor = 'default';\r\n    })\r\n\r\n    if (viewport) {\r\n      viewport.setAttribute(\"content\", \"width=device-width, initial-scale=0.7, minimum-scale=0.7\")\r\n    }\r\n    clearInterval(interval)\r\n  }, 40)"
+                },
+                {
+                  "id": "16",
+                  "title": "KÆRLIGHEDSØEN",
+                  "path": "kaerlighedsoeen",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/info/kaerlighedsoeen/",
+                  "script": "const interval = setInterval(() => {\r\n    let viewport = document.querySelector('meta[name=\"viewport\"]')\r\n    const masthead = document.getElementById(\"masthead\")\r\n    if (masthead) masthead.remove()\r\n\r\n    const footer = document.querySelector(\"footer\")\r\n    if (footer) footer.remove()\r\n    const heroSection = document.querySelector(\r\n      \".entry-hero.page-hero-section.entry-hero-layout-standard\",\r\n    )\r\n    if (heroSection) heroSection.remove()\r\n\r\n    const appSection = document.querySelector(\r\n      \".kb-row-layout-id2541_a48faa-06\",\r\n    )\r\n    if (appSection) appSection.remove()\r\n\r\n    \/\/ Stop interval when everything is gone\r\n    if (\r\n      !document.getElementById(\"masthead\") &&\r\n      !document.querySelector(\"footer\") &&\r\n      !document.querySelector(\".entry-hero.page-hero-section.entry-hero-layout-standard\")\r\n    ) {\r\n    }\r\n\r\n    const links = document.querySelectorAll(\"a[href]\")\r\n\r\n    links.forEach((link) => {\r\n      \/\/ Option 1: Remove the whole tag\r\n      link.remove()\r\n\r\n      \/\/ Option 2: If you want to KEEP the text but disable navigation:\r\n      \/\/ link.removeAttribute('href');\r\n      \/\/ link.style.pointerEvents = 'none';\r\n      \/\/ link.style.cursor = 'default';\r\n    })\r\n\r\n    if (viewport) {\r\n      viewport.setAttribute(\"content\", \"width=device-width, initial-scale=0.7, minimum-scale=0.7\")\r\n    }\r\n    clearInterval(interval)\r\n  }, 40)"
+                },
+                {
+                  "id": "17",
+                  "title": "LATIN PAVILLON ",
+                  "path": "latin-pavillon",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/oplev/latin-pavillon/",
+                  "script": "const interval = setInterval(() => {\r\n    let viewport = document.querySelector('meta[name=\"viewport\"]')\r\n    const masthead = document.getElementById(\"masthead\")\r\n    if (masthead) masthead.remove()\r\n\r\n    const footer = document.querySelector(\"footer\")\r\n    if (footer) footer.remove()\r\n    const heroSection = document.querySelector(\r\n      \".entry-hero.page-hero-section.entry-hero-layout-standard\",\r\n    )\r\n    if (heroSection) heroSection.remove()\r\n\r\n    const appSection = document.querySelector(\r\n      \".kb-row-layout-id2541_a48faa-06\",\r\n    )\r\n    if (appSection) appSection.remove()\r\n\r\n    \/\/ Stop interval when everything is gone\r\n    if (\r\n      !document.getElementById(\"masthead\") &&\r\n      !document.querySelector(\"footer\") &&\r\n      !document.querySelector(\".entry-hero.page-hero-section.entry-hero-layout-standard\")\r\n    ) {\r\n    }\r\n\r\n    const links = document.querySelectorAll(\"a[href]\")\r\n\r\n    links.forEach((link) => {\r\n      \/\/ Option 1: Remove the whole tag\r\n      link.remove()\r\n\r\n      \/\/ Option 2: If you want to KEEP the text but disable navigation:\r\n      \/\/ link.removeAttribute('href');\r\n      \/\/ link.style.pointerEvents = 'none';\r\n      \/\/ link.style.cursor = 'default';\r\n    })\r\n\r\n    if (viewport) {\r\n      viewport.setAttribute(\"content\", \"width=device-width, initial-scale=0.7, minimum-scale=0.7\")\r\n    }\r\n    clearInterval(interval)\r\n  }, 40)"
+                },
+                {
+                  "id": "18",
+                  "title": "VIN & BOBLER ",
+                  "path": "vin-og-bobler",
+                  "type": "page-embed",
+                  "link": "https://ringstedfestival.dk/oplev/vin-og-bobler/",
+                  "script": "const interval = setInterval(() => {\r\n    let viewport = document.querySelector('meta[name=\"viewport\"]')\r\n    const masthead = document.getElementById(\"masthead\")\r\n    if (masthead) masthead.remove()\r\n\r\n    const footer = document.querySelector(\"footer\")\r\n    if (footer) footer.remove()\r\n    const heroSection = document.querySelector(\r\n      \".entry-hero.page-hero-section.entry-hero-layout-standard\",\r\n    )\r\n    if (heroSection) heroSection.remove()\r\n\r\n    const appSection = document.querySelector(\r\n      \".kb-row-layout-id2541_a48faa-06\",\r\n    )\r\n    if (appSection) appSection.remove()\r\n\r\n    \/\/ Stop interval when everything is gone\r\n    if (\r\n      !document.getElementById(\"masthead\") &&\r\n      !document.querySelector(\"footer\") &&\r\n      !document.querySelector(\".entry-hero.page-hero-section.entry-hero-layout-standard\")\r\n    ) {\r\n    }\r\n\r\n    const links = document.querySelectorAll(\"a[href]\")\r\n\r\n    links.forEach((link) => {\r\n      \/\/ Option 1: Remove the whole tag\r\n      link.remove()\r\n\r\n      \/\/ Option 2: If you want to KEEP the text but disable navigation:\r\n      \/\/ link.removeAttribute('href');\r\n      \/\/ link.style.pointerEvents = 'none';\r\n      \/\/ link.style.cursor = 'default';\r\n    })\r\n\r\n    if (viewport) {\r\n      viewport.setAttribute(\"content\", \"width=device-width, initial-scale=0.7, minimum-scale=0.7\")\r\n    }\r\n    clearInterval(interval)\r\n  }, 40)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "type": "item",
+          "title": "PLAYLIST",
+          "icon": "playlist",
+          "path": "playlist"
+        },
+        {
+          "id": "20",
+          "type": "item",
+          "title": "GALLERY",
+          "icon": "gallery",
+          "path": "gallery"
+        },
+        {
+          "id": "21",
+          "type": "item",
+          "title": "STAGES",
+          "icon": "stages",
+          "path": "stages"
+        },
+        {
+          "id": "22",
+          "type": "item",
+          "title": "SETTINGS",
+          "icon": "settings",
+          "path": "settings"
+        }
+      ]
+    }
+  },
+  "artists": {
+    "data": {
+      "id": "1",
+      "updated_at": "2025-11-14T01:45:00Z",
+      "structure": {
+        "properties": {},
+        "items": [
+          {
+            "id": "1",
+            "name": "Andreas Odbjerg",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/Andreas-Odbjerg-pressefoto-25_3-2-%E2%80%93-stor-e1763463525342-768x488.jpeg",
+            "concertDateStart": "2026-07-10T20:00:00Z",
+            "concertDateEnd": "2026-07-10T21:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "“Andreas Odbjerg” is a live concert tour in Denmark celebrating the legendary Danish pop band Tøsedrengene, which was active from 1978 to 1985.",
+              "The tour marks 40 years since the group disbanded, bringing back their music to both long-time fans and new audiences."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/andreasodbjerg",
+              "instagram": "https://www.instagram.com/andreasodbjerg",
+              "spotify": "https://spotify.com/andreasodbjerg"
+            }
+          },
+          {
+            "id": "2",
+            "name": "Lukas Graham",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/Lukas-Graham-1-Frederik-Barasinski-scaled-e1763031825336-768x584.jpeg",
+            "concertDateStart": "2026-07-11T21:00:00Z",
+            "concertDateEnd": "2026-07-11T22:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Lukas Graham is a Danish pop and soul band known for their heartfelt lyrics and catchy melodies.",
+              "The band, led by vocalist Lukas Forchhammer, has gained international fame with hits like '7 Years' and 'Love Someone'.",
+              "Their music often explores themes of personal growth, family, and life's challenges."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/lukasgraham",
+              "instagram": "https://www.instagram.com/lukasgraham",
+              "spotify": "https://spotify.com/lukasgraham"
+            }
+          },
+          {
+            "id": "3",
+            "name": "Malte Ebert",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/MALTE_EBERT_PRESSE-6-af-Mikkel-Sivelokke-768x512.jpg",
+            "concertDateStart": "2026-07-12T19:00:00Z",
+            "concertDateEnd": "2026-07-12T20:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Malte Ebert is a Danish singer-songwriter known for his introspective lyrics and folk-inspired melodies.",
+              "His music captures the essence of everyday life with honest storytelling and acoustic arrangements.",
+              "Malte has quickly become one of Denmark's most promising artists in the contemporary folk scene."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/malteebert",
+              "instagram": "https://www.instagram.com/malteebert",
+              "spotify": "https://spotify.com/malteebert"
+            }
+          },
+          {
+            "id": "4",
+            "name": "Medina",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/Medina-2026-%E2%80%93-stor-768x540.jpeg",
+            "concertDateStart": "2026-07-12T22:00:00Z",
+            "concertDateEnd": "2026-07-12T23:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Medina is a Danish pop and R&B artist who rose to international fame with her hit single 'You and I'.",
+              "Known for her powerful vocals and electronic pop sound, she has become one of Denmark's most successful music exports.",
+              "Her performances are characterized by high energy and emotional depth, captivating audiences worldwide."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/medinaofficial",
+              "instagram": "https://www.instagram.com/medinaofficial",
+              "spotify": "https://spotify.com/medinaofficial"
+            }
+          },
+          {
+            "id": "5",
+            "name": "Gnags",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/GNAGS-2022-fotokredit-Per-Lange-%E2%80%93-stor-768x512.jpeg",
+            "concertDateStart": "2026-07-13T20:30:00Z",
+            "concertDateEnd": "2026-07-13T22:00:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Gnags is a legendary Danish rock band that has been entertaining audiences since 1966.",
+              "With their unique blend of rock, pop, and folk, they've created some of Denmark's most beloved songs.",
+              "Known for hits like 'Så Lykkelig' and 'Maria', Gnags continues to be a cornerstone of Danish music culture."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/gnags",
+              "instagram": "https://www.instagram.com/gnags",
+              "spotify": "https://spotify.com/gnags"
+            }
+          },
+          {
+            "id": "6",
+            "name": "Gilli",
+            "imageUrl": "https://ringstedfestival.dk/wp-content/uploads/GILLI-Pressefoto-2026-768x1024.jpeg",
+            "concertDateStart": "2026-07-13T23:00:00Z",
+            "concertDateEnd": "2026-07-14T00:30:00Z",
+            "concertLocation": "Main Stage",
+            "aboutText": [
+              "Gilli is one of Denmark's most prominent hip-hop and rap artists, known for his energetic performances.",
+              "His music blends Danish and international hip-hop influences with catchy hooks and powerful beats.",
+              "With multiple chart-topping albums and singles, Gilli has established himself as a leading voice in Danish urban music."
+            ],
+            "socialLinks": {
+              "facebook": "https://www.facebook.com/gillimusik",
+              "instagram": "https://www.instagram.com/gillimusik",
+              "spotify": "https://spotify.com/gillimusik"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
